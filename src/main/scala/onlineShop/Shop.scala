@@ -1,7 +1,7 @@
 package onlineShop
 
 case class Shop(
-               customers: List[Customers],
+               customers: List[Customer],
                admins: List[Manager],
                items: List[Item],
                owners: List[FathersOfShop]

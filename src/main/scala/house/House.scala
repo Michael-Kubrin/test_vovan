@@ -2,7 +2,7 @@ package house
 
 final case class House(
                         residents: Residents,
-                        flats: Flats,
+                        flats: Flat,
                         builder: Builder,
                         ageOfResidents: List[Int],
                         timeOfBuilding: DateTime,
